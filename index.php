@@ -5,13 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://cdn-icons.flaticon.com/png/512/3032/premium/3032999.png?token=exp=1649715716~hmac=13845750c31fd2522713e3ca17b854e3">
+    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/3032/premium/3032999.png?token=exp=1649715716~hmac=13845750c31fd2522713e3ca17b854e3">
     <title>Relógio</title>
 
     <style>
-
-        /*CSS RESETS*/
-
 body{
     background-color: #fff;
     line-height: 1.6;
@@ -21,9 +18,6 @@ body{
 h1 {
     margin-top: 0;
 }
-
-
-/*CSS START*/
 
 .full-table {
     display: table;
@@ -111,7 +105,7 @@ h1 {
 <script>
     function date() {
 var today = new Date();
-document.getElementById('date').innerHTML = today.toDateString();
+document.getElementById('date').innerHTML = today.toDateString('pt-BR');
 }
 
 
