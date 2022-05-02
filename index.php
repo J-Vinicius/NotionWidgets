@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/3032/premium/3032999.png?token=exp=1649715716~hmac=13845750c31fd2522713e3ca17b854e3">
+    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/3032/premium/3032987.png?token=exp=1651530904~hmac=a74a00c65fe52b43fd5b060d02e7e37c">
     <title>Relógio</title>
 
     <style>
@@ -74,7 +74,7 @@ h1 {
 .greet{
     
     min-width: 162px;
-    /* padding-right: 30px; */
+    padding-right: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
@@ -127,7 +127,7 @@ if (hrs < 12)
         greet = 'Boa Tarde ';
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Boa Noite  ';
-// console.log(today.toLocaleTimeString());
+console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
 document.getElementById('min').innerHTML = minutes;
